@@ -1,0 +1,156 @@
+/* Write your CSS here */
+.timer-app-section {
+  background: linear-gradient(to right, #defafe, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.main-timer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 765px) {
+  .main-timer-section {
+    flex-direction: column;
+  }
+}
+
+.main-heading {
+  color: #0f172a;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 33px;
+}
+
+@media screen and (max-width: 765px) {
+  .main-heading {
+    font-size: 45px;
+  }
+}
+
+.timer-display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 360px;
+}
+
+.elapsed-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 130px;
+  height: 130px;
+  border-radius: 200px;
+}
+
+.details {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin: 3px;
+}
+
+.elapsed-timer {
+  font-weight: 700;
+  border-radius: 200px;
+  padding: 10px;
+  margin: 10px;
+  color: #00d9f5;
+  text-align: center;
+}
+
+.main-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 800;
+  margin: 0px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.timer-limit-controller {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.limit-controller-section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+}
+
+.set-timer {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 120px;
+}
+
+.timer-button {
+  background: transparent;
+  border-width: 0px;
+  font-weight: bold;
+  color: #0f172a;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.limit-count {
+  background: linear-gradient(to right, #03f584, #00d9f5);
+  border-radius: 5px;
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  height: 40px;
+  width: 70px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 17px;
+  margin-left: 17px;
+  background: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon {
+  margin-bottom: 5px;
+  height: 15%;
+  width: 15%;
+}
